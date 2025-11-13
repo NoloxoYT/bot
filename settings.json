@@ -1,0 +1,46 @@
+{
+  "bot-account": {
+    "username": "DO_NOT_KILL", 
+    "password": "",
+    "type": "mojang"
+  },
+
+  "server": {
+    "ip": "entre3pote.aternos.me", 
+    "port": 20228,   
+    "version": "1.12.1"   
+  },
+  
+  "position": {
+    "enabled": false,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+
+  "utils": {
+    "auto-auth": {
+      "enabled": false,
+      "password": ""
+    },
+
+    "anti-afk": {
+      "enabled": true,
+      "sneak": true
+    },
+
+    "chat-messages": {
+      "enabled": true,
+      "repeat": false,
+      "repeat-delay": 1,
+
+      "messages": [
+        "/vanish DO_NOT_KILL"
+      ]
+    },
+
+    "chat-log": true,
+    "auto-reconnect": true,
+    "auto-recconect-delay": 5000
+  }
+}
